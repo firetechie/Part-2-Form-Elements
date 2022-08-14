@@ -1,0 +1,55 @@
+body {
+  background-color: #ffffff;
+  font-family: "Source Sans Pro";
+  margin: 40px 70% 0px 40px;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin: 2px 0 24px 0;
+  display: inline-block;
+  border: 1px solid #555555;
+  border-radius: 5px;
+  background: #ffffff;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+  background-color: #ffffff;
+  outline: none;
+}
+
+label {
+  font-family: "Source Sans Pro";
+  font-size: 14px;
+  font-weight: normal;
+  color: #1a1a1a;
+}
+
+::placeholder {
+  font-family: "Source Sans Pro";
+  font-size: 14px;
+  font-weight: normal;
+  color: #737373;
+}
+
+.registerbtn {
+  background-color: #0063e6;
+  color: #ffffff;
+  font-family: "Source Sans Pro";
+  font-size: 14px;
+  font-weight: normal;
+  margin: 8px 0px;
+  padding: 16px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  width: 28.5vw;
+}
+
+.registerbtn:hover {
+  background-color: #f0f6ff;
+  color: #000000;
+}
